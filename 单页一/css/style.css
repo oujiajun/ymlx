@@ -1,0 +1,309 @@
+/* CSS Document */
+a:focus{text-decoration:none;}
+a:hover{text-decoration:none;}
+body,html{background:#0d1124;}
+/*电脑端导航*/
+.headers01{width:100%; height:118px; background:url(../images/nav_bg.png) no-repeat; background-size:100% 100%; background-position:center center; position:relative; z-index:1111;}
+.main-nav{width:1200px; height:auto; margin:0 auto; padding-bottom:30px; overflow:hidden;}
+.navs_left{width:480px; height:88px; float:left;}
+.navs_left ul li{width:100px; float:right; text-align:center; line-height:120px;}
+.navs_left ul li a{color:#fff; font-size:16px;}
+.navs_middle{width:233px; height:88px; float:left;}
+.navs_right{width:487px; height:88px; float:left;}
+.navs_right ul li{width:120px; float:left; text-align:center; line-height:120px;}
+.navs_right ul li a{color:#fff; font-size:16px;}
+.herders02{display:none;}
+/*banner*/
+.max-header{width: 100%; padding: 0; margin-top:-50px;}
+.max-header img{width: 100%; height: 100%;}
+/*关于我们*/
+.abouts{width:1200px; height:auto; margin:0 auto; overflow:hidden; margin-top:20px;}
+.abouts_title{width:1200px; height: auto; text-align:center;}
+.abouts_content{width:1200px; height:auto; text-align:center;}
+.abouts_content p{width:1200px; height:auto; margin:0 auto; font-size:13px; line-height:35px; text-align:left; text-indent:2em; color:#fff;}
+.abouts_imgs{width:1200px; height:auto; margin:0 auto; margin-top:20px;}
+.abouts_imgs ul{width:1200px;}
+.abouts_imgs ul li{width:300px; height:auto; float:left; text-align:center;}
+/*热门彩种*/
+.colors{width:1200px; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.colors_title{width:1200px; text-align:center;}
+.colors_content{width:1200px; height:auto; overflow:hidden; margin-top:20px;}
+.colors_content ul{width:1200px;}
+.colors_content li{width:300px; height:auto; float:left; text-align:center;}
+/*我们的优势*/
+.adverts{width:1200px; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.adverts_title{width:1200px; text-align:center;}
+.adverts_content{width:1200px; height:auto; overflow:hidden; margin-top:20px;}
+.adverts_content ul{width:1200px;}
+.adverts_content li{width:300px; height:auto; float:left; text-align:center;}
+.adverts_content li h2{font-size:18px; color:#be9c27;}
+.adverts_content li p{width:80%; color:#fff; margin:0 auto;}
+/*图片*/
+.footers_imgs{width:1200px; height:auto; margin:0 auto; margin-top:30px; text-align:center;}
+/*网页底部*/
+.foots{width:100%; height:auto; margin:0 auto; background:#000419; background-size:100% 100%; text-align:center; overflow:hidden; margin-top:30px;}
+.foots_content{width:1200px; height:auto; margin:0 auto; margin-top:20px;}
+.foots_content img{margin-top:0px;}
+.foots_content p{line-height:30px; text-align:center; color:#999999;}
+.foots_content p a{color:#999999;}
+@media(min-width:320px) and (max-width:450px)
+{
+.headers01{display:none;}
+.herders02{display:block;}
+.main-header{width: 100%; height:200px; padding: 0; background:none;}
+.main-header img{width: 100%;height:100%;}
+.header-nav{width: 100%;border: 0;z-index: 100;margin-bottom: 0; background-color:#000;}
+.header-nav-left .navbar-brand img{margin-top: -8px; height: 40px;}
+.header-nav .header-nav-right ul li a{line-height: 60px;padding-left: 30px;padding-right: 30px;color: #fff;font-weight: bold;}
+.header-nav .header-nav-right ul li a:hover{color: #EE3B3B;}
+.header-nav .header-nav-right ul li.active a{color: #EE3B3B;background: none;}
+.header-nav .header-nav-right ul li.active a:hover{background: none; color: #EE3B3B;}
+.header-nav .header-nav-right ul{float: right; width:100%; text-align:center;}
+.overH{overflow: hidden;}
+.content{padding: 10px 0;}
+/*banner*/
+.max-header{width: 100%; padding: 0; margin-top:0px;}
+.max-header img{width: 100%; height: 100%;}
+/*关于我们*/
+.abouts{width:90%; height:auto; background:none; margin:0 auto; overflow:hidden; margin-top:20px;}
+.abouts_title{width:100%; height: auto; text-align:center; margin-top:0px;}
+.abouts_content{width:100%; height:auto; text-align:center;}
+.abouts_content p{width:80%; height:auto; margin:0 auto; font-size:13px; line-height:35px; text-align:left; text-indent:2em;}
+.abouts_imgs{width:90%; height:auto; margin:0 auto; margin-top:20px;}
+.abouts_imgs ul{width:100%;}
+.abouts_imgs ul li{width:100%; height:auto; float:left; text-align:center;}
+/*热门彩种*/
+.colors{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.colors_title{width:100%; text-align:center;}
+.colors_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.colors_content ul{width:100%;}
+.colors_content li{width:100%; height:auto; float:left; text-align:center;}
+/*我们的优势*/
+.adverts{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.adverts_title{width:100%; text-align:center;}
+.adverts_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.adverts_content ul{width:100%;}
+.adverts_content li{width:100%; height:auto; float:left; text-align:center;}
+.adverts_content li h2{font-size:18px; color:#be9c27;}
+.adverts_content li p{width:80%; color:#fff; margin:0 auto;}
+/*图片*/
+.footers_imgs{display:none;}
+/*网页底部*/
+.foots{width:100%; height:auto; margin:0 auto; background:#000000; background-size:100% 100%; text-align:center; overflow:hidden; margin-top:50px;}
+.foots_content{width:90%; height:suto; margin:0 auto; margin-top:0px;}
+.foots_content img{margin-top:0px;}
+.foots_content p{line-height:30px; text-align:center; color:#999999;}
+.foots_content p a{color:#999999;}
+}
+@media(min-width:451px) and (max-width:640px)
+{
+.headers01{display:none;}
+.herders02{display:block;}
+.main-header{width: 100%; height:200px; padding: 0; background:none;}
+.main-header img{width: 100%;height:100%;}
+.header-nav{width: 100%;border: 0;z-index: 100;margin-bottom: 0; background-color:#000;}
+.header-nav-left .navbar-brand img{margin-top: -8px; height: 40px;}
+.header-nav .header-nav-right ul li a{line-height: 60px;padding-left: 30px;padding-right: 30px;color: #fff;font-weight: bold;}
+.header-nav .header-nav-right ul li a:hover{color: #EE3B3B;}
+.header-nav .header-nav-right ul li.active a{color: #EE3B3B;background: none;}
+.header-nav .header-nav-right ul li.active a:hover{background: none; color: #EE3B3B;}
+.header-nav .header-nav-right ul{float: right; width:100%; text-align:center;}
+.overH{overflow: hidden;}
+.content{padding: 10px 0;}
+/*banner*/
+.max-header{width: 100%; padding: 0; margin-top:0px;}
+.max-header img{width: 100%; height: 100%;}
+/*关于我们*/
+.abouts{width:90%; height:auto; background:none; margin:0 auto; overflow:hidden; margin-top:20px;}
+.abouts_title{width:100%; height: auto; text-align:center; margin-top:0px;}
+.abouts_content{width:100%; height:auto; text-align:center;}
+.abouts_content p{width:80%; height:auto; margin:0 auto; font-size:13px; line-height:35px; text-align:left; text-indent:2em;}
+.abouts_imgs{width:90%; height:auto; margin:0 auto; margin-top:20px;}
+.abouts_imgs ul{width:100%;}
+.abouts_imgs ul li{width:50%; height:auto; float:left; text-align:center;}
+.abouts_imgs ul li img{width:100%; height:100%;}
+/*热门彩种*/
+.colors{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.colors_title{width:100%; text-align:center;}
+.colors_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.colors_content ul{width:100%;}
+.colors_content li{width:50%; height:auto; float:left;}
+.colors_content li:nth-child(1){text-align:right;}
+.colors_content li:nth-child(2n){text-align:left;}
+.colors_content li:nth-child(3){text-align:right;}
+.colors_content li img{width:100%; height:100%;}
+/*我们的优势*/
+.adverts{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.adverts_title{width:100%; text-align:center;}
+.adverts_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.adverts_content ul{width:100%;}
+.adverts_content li{width:50%; height:auto; float:left; text-align:center;}
+.adverts_content li h2{font-size:18px; color:#be9c27;}
+.adverts_content li p{width:80%; color:#fff; margin:0 auto;}
+/*图片*/
+.footers_imgs{display:none;}
+/*网页底部*/
+.foots{width:100%; height:auto; margin:0 auto; background:#000000; background-size:100% 100%; text-align:center; overflow:hidden; margin-top:50px;}
+.foots_content{width:90%; height:suto; margin:0 auto; margin-top:0px;}
+.foots_content img{margin-top:0px;}
+.foots_content p{line-height:30px; text-align:center; color:#999999;}
+.foots_content p a{color:#999999;}
+}
+@media(min-width:641px) and (max-width:767px)
+{
+.headers01{display:none;}
+.herders02{display:block;}
+.main-header{width: 100%; height:200px; padding: 0; background:none;}
+.main-header img{width: 100%;height:100%;}
+.header-nav{width: 100%;border: 0;z-index: 100;margin-bottom: 0; background-color:#000;}
+.header-nav-left .navbar-brand img{margin-top: -8px; height: 40px;}
+.header-nav .header-nav-right ul li a{line-height: 60px;padding-left: 30px;padding-right: 30px;color: #fff;font-weight: bold;}
+.header-nav .header-nav-right ul li a:hover{color: #EE3B3B;}
+.header-nav .header-nav-right ul li.active a{color: #EE3B3B;background: none;}
+.header-nav .header-nav-right ul li.active a:hover{background: none; color: #EE3B3B;}
+.header-nav .header-nav-right ul{float: right; width:100%; text-align:center;}
+.overH{overflow: hidden;}
+.content{padding: 10px 0;}
+/*banner*/
+.max-header{width: 100%; padding: 0; margin-top:0px;}
+.max-header img{width: 100%; height: 100%;}
+/*关于我们*/
+.abouts{width:90%; height:auto; background:none; margin:0 auto; overflow:hidden; margin-top:20px;}
+.abouts_title{width:100%; height: auto; text-align:center; margin-top:0px;}
+.abouts_content{width:100%; height:auto; text-align:center;}
+.abouts_content p{width:80%; height:auto; margin:0 auto; font-size:13px; line-height:35px; text-align:left; text-indent:2em;}
+.abouts_imgs{width:90%; height:auto; margin:0 auto; margin-top:20px;}
+.abouts_imgs ul{width:100%;}
+.abouts_imgs ul li{width:50%; height:auto; float:left; text-align:center;}
+.abouts_imgs ul li img{width:100%; height:100%;}
+/*热门彩种*/
+.colors{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.colors_title{width:100%; text-align:center;}
+.colors_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.colors_content ul{width:100%;}
+.colors_content li{width:50%; height:auto; float:left;}
+.colors_content li:nth-child(1){text-align:right;}
+.colors_content li:nth-child(2n){text-align:left;}
+.colors_content li:nth-child(3){text-align:right;}
+/*我们的优势*/
+.adverts{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.adverts_title{width:100%; text-align:center;}
+.adverts_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.adverts_content ul{width:100%;}
+.adverts_content li{width:50%; height:auto; float:left; text-align:center;}
+.adverts_content li h2{font-size:18px; color:#be9c27;}
+.adverts_content li p{width:80%; color:#fff; margin:0 auto;}
+/*图片*/
+.footers_imgs{display:none;}
+/*网页底部*/
+.foots{width:100%; height:auto; margin:0 auto; background:#000000; background-size:100% 100%; text-align:center; overflow:hidden; margin-top:50px;}
+.foots_content{width:90%; height:suto; margin:0 auto; margin-top:0px;}
+.foots_content img{margin-top:0px;}
+.foots_content p{line-height:30px; text-align:center; color:#999999;}
+.foots_content p a{color:#999999;}
+}
+@media(min-width:768px) and (max-width:1020px)
+{
+.headers01{display:none;}
+.herders02{display:block;}
+.main-header{width: 100%; height:200px; padding: 0; background:none;}
+.main-header img{width: 100%;height:100%;}
+.header-nav{width: 100%;border: 0;z-index: 100;margin-bottom: 0; background-color:#000;}
+.header-nav-left .navbar-brand img{margin-top: 8px; height: 50px;}
+.header-nav .header-nav-right ul li a{line-height: 60px;padding-left: 10px;padding-right: 10px;color: #fff;font-weight: bold;}
+.header-nav .header-nav-right ul li a:hover{color: #EE3B3B;}
+.header-nav .header-nav-right ul li.active a{color: #EE3B3B;background: none;}
+.header-nav .header-nav-right ul li.active a:hover{background: none; color: #EE3B3B;}
+.header-nav .header-nav-right ul{float: right; width:auto; text-align:center;}
+.overH{overflow: hidden;}
+.content{padding: 10px 0;}
+/*banner*/
+.max-header{width: 100%; padding: 0; margin-top:0px;}
+.max-header img{width: 100%; height: 100%;}
+/*关于我们*/
+.abouts{width:90%; height:auto; background:none; margin:0 auto; overflow:hidden; margin-top:20px;}
+.abouts_title{width:100%; height: auto; text-align:center; margin-top:0px;}
+.abouts_content{width:100%; height:auto; text-align:center;}
+.abouts_content p{width:80%; height:auto; margin:0 auto; font-size:13px; line-height:35px; text-align:left; text-indent:2em;}
+.abouts_imgs{width:90%; height:auto; margin:0 auto; margin-top:20px;}
+.abouts_imgs ul{width:100%;}
+.abouts_imgs ul li{width:50%; height:auto; float:left; text-align:center;}
+.abouts_imgs ul li img{width:100%; height:100%;}
+/*热门彩种*/
+.colors{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.colors_title{width:100%; text-align:center;}
+.colors_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.colors_content ul{width:100%;}
+.colors_content li{width:50%; height:auto; float:left;}
+.colors_content li:nth-child(1){text-align:right;}
+.colors_content li:nth-child(2n){text-align:left;}
+.colors_content li:nth-child(3){text-align:right;}
+/*我们的优势*/
+.adverts{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.adverts_title{width:100%; text-align:center;}
+.adverts_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.adverts_content ul{width:100%;}
+.adverts_content li{width:50%; height:auto; float:left; text-align:center;}
+.adverts_content li h2{font-size:18px; color:#be9c27;}
+.adverts_content li p{width:80%; color:#fff; margin:0 auto;}
+/*图片*/
+.footers_imgs{display:none;}
+/*网页底部*/
+.foots{width:100%; height:auto; margin:0 auto; background:#000000; background-size:100% 100%; text-align:center; overflow:hidden; margin-top:50px;}
+.foots_content{width:90%; height:suto; margin:0 auto; margin-top:0px;}
+.foots_content img{margin-top:0px;}
+.foots_content p{line-height:30px; text-align:center; color:#999999;}
+.foots_content p a{color:#999999;}
+}
+@media(min-width:1020px) and (max-width:1199px)
+{
+.headers01{display:none;}
+.herders02{display:block;}
+.main-header{width: 100%; height:200px; padding: 0; background:none;}
+.main-header img{width: 100%;height:100%;}
+.header-nav{width: 100%;border: 0;z-index: 100;margin-bottom: 0; background-color:#000;}
+.header-nav-left .navbar-brand img{margin-top: 8px; height: 50px;}
+.header-nav .header-nav-right ul li a{line-height: 60px;padding-left: 10px;padding-right: 10px;color: #fff;font-weight: bold;}
+.header-nav .header-nav-right ul li a:hover{color: #EE3B3B;}
+.header-nav .header-nav-right ul li.active a{color: #EE3B3B;background: none;}
+.header-nav .header-nav-right ul li.active a:hover{background: none; color: #EE3B3B;}
+.header-nav .header-nav-right ul{float: right; width:auto; text-align:center;}
+.overH{overflow: hidden;}
+.content{padding: 10px 0;}
+/*banner*/
+.max-header{width: 100%; padding: 0; margin-top:0px;}
+.max-header img{width: 100%; height: 100%;}
+/*关于我们*/
+.abouts{width:90%; height:auto; background:none; margin:0 auto; overflow:hidden; margin-top:20px;}
+.abouts_title{width:100%; height: auto; text-align:center; margin-top:0px;}
+.abouts_content{width:100%; height:auto; text-align:center;}
+.abouts_content p{width:80%; height:auto; margin:0 auto; font-size:13px; line-height:35px; text-align:left; text-indent:2em;}
+.abouts_imgs{width:90%; height:auto; margin:0 auto; margin-top:20px;}
+.abouts_imgs ul{width:100%;}
+.abouts_imgs ul li{width:50%; height:auto; float:left; text-align:center;}
+.abouts_imgs ul li img{width:100%; height:100%;}
+/*热门彩种*/
+.colors{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.colors_title{width:100%; text-align:center;}
+.colors_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.colors_content ul{width:100%;}
+.colors_content li{width:25%; height:auto; float:left; text-align:center;}
+.colors_content li img{width:100%; height:100%;}
+/*我们的优势*/
+.adverts{width:90%; height:auto; margin:0 auto; overflow:hidden; margin-top:30px;}
+.adverts_title{width:100%; text-align:center;}
+.adverts_content{width:100%; height:auto; overflow:hidden; margin-top:20px;}
+.adverts_content ul{width:100%;}
+.adverts_content li{width:50%; height:auto; float:left; text-align:center;}
+.adverts_content li h2{font-size:18px; color:#be9c27;}
+.adverts_content li p{width:80%; color:#fff; margin:0 auto;}
+/*图片*/
+.footers_imgs{display:none;}
+/*网页底部*/
+.foots{width:100%; height:auto; margin:0 auto; background:#000000; background-size:100% 100%; text-align:center; overflow:hidden; margin-top:50px;}
+.foots_content{width:90%; height:suto; margin:0 auto; margin-top:0px;}
+.foots_content img{margin-top:0px;}
+.foots_content p{line-height:30px; text-align:center; color:#999999;}
+.foots_content p a{color:#999999;}
+}
+

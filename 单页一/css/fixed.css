@@ -1,0 +1,151 @@
+.c_meau{ width:211px; height:380px; position:fixed;  left:50%; margin-left:600px; top:20%; display:none;z-index:9999;}
+.c_meau .fl{ width:125px;}
+.c_meau .fl h4{ width:100%; height:61px; background:url(../img/c_meau_4.png) no-repeat; color:#FFF; font-size:16px; line-height:22px; text-align:center; padding:8px 0; font-weight:bold;}
+.c_meau .fl_o{ background:#fff; margin:-16px 0; padding:10px 0 0 0;}
+.c_meau .fl_o_o{ color:#7d7d7d; font-size:14px; }
+.c_meau .fl_o_o { padding-bottom:10px; border-bottom:1px solid #e5e5e5; width:108px; text-align:center; margin:auto auto 10px auto;}
+.c_meau .fl_o_o dd{ line-height:14px;}
+.c_meau .fr_o{ margin:90px 0 60px 0;}
+.c_meau .fr_t{ margin-left:8px; cursor:pointer;}
+.c_meau{ height:auto; bottom:-430px; display:block;}
+.c_meau .fl_o_o dd{ line-height:22px;}
+.c_meau .fl_o_o img{width: 100%;}
+.c_meau .fl_o_o .qq{
+    width: 40px;display: block;   height: 50px;
+    margin: 0 auto;
+}
+.c_meau .fl_o{ margin:-16px 0 -16px 0;}
+.c_meau .fr_o {margin: 90px 0 168px 0;}
+
+@media screen and (max-device-width: 1366px)
+{
+    .c_meau{ margin-left:470px; z-index:100;}
+}
+@media screen and(max-width: 640px){
+    .c_meau{display: none;}
+}
+
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    display: none;
+}
+.footer ul{
+    padding: 0;
+}
+.footer ul li {
+    width: 33%;
+    float: left;
+    background: rgb(239,154,72);
+    margin-right: .3%;
+    list-style: none;
+}
+.footer ul li a{
+    width: 100%;
+    display: block;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    display: none;
+}
+.dialog{
+    width: 800px;
+    margin:20% auto;
+    border: 1px solid #000;
+    padding: 20px 0;
+    position: relative;
+    display: none;
+    background: #fff;
+}
+.wxs{
+    color: #000;
+    overflow: hidden;
+    margin-top: 30px;
+    background: #fff;
+    padding: 0 10px;
+}
+.dialog a{
+    display: block;
+    text-align: center;
+    margin:20px auto;
+    border: 1px solid #ccc;
+    color: #333;
+    width: 100px;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.dialog a img{
+    width: 100%;
+}
+.dialog p{
+    text-align: center;color: #333;
+}
+
+@media screen and (max-width: 640px) {
+    footer{
+        display: none;
+    }
+    .footer{
+        position: fixed;
+        bottom:0;
+        width: 100%;
+        display: block;
+		z-index:1111;
+    }
+    .mask{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.7);
+        display: none;
+    }
+    .dialog{
+        width: 300px;
+        margin:30% auto;
+        border: 2px solid #fafafa;
+        border-radius: 10px;
+        padding: 20px 0;
+        position: relative;
+        display: none;
+        vertical-align: middle;
+    }
+    .dialog a{
+        display: block;
+        text-align: center;
+        margin:20px auto;
+    }
+    .dialog a img{
+        width: 100%;
+    }
+    .dialog p{
+        text-align: center;
+    }
+    #copyBtn1,#copyBtn{
+        display: block;
+        background: red;
+        text-align: center;
+        border-radius: 3px;
+        color: #fff;
+    }
+    .close1{
+        background:none;
+        font-size: 24px;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        border: none;
+        z-index: 10;
+        color: #333;
+    }
+}
